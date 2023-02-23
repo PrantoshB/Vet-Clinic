@@ -13,3 +13,39 @@ select * from animals;
 rollback;
 select * from animals;
 
+UPDATE animals set species = 'digimon' where name like '%mon';
+select * from animals;
+update animals set species = 'pokemon' where species = '';
+select * from animals;
+
+BEGIN;
+delete from animals;
+ROLLBACK;
+select * from animals;
+
+BEGIN;
+DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+SAVEPOINT SP1;
+UPDATE animals SET weight_kg = weight_kg * -1;
+ROLLBACK TO SP1;
+UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
+COMMIT;
+
+SELECT COUNT(*) FROM animals;
+SELECT COUNT(*) FROM animals WHERE escape_attempts = 0;
+SELECT AVG(weight_kg) FROM animals;
+
+SELECT neutered, AVG(escape_attempts) as avg_escapes
+FROM animals
+GROUP BY neutered
+ORDER BY avg_escapes DESC
+LIMIT 1;
+
+SELECT species, MIN(weight_kg), MAX(weight_kg)
+FROM animals
+GROUP BY species;
+
+SELECT species, AVG(escape_attempts)
+FROM animals
+WHERE date_of_birth >= '1990-01-01' AND date_of_birth <= '2000-12-31'
+GROUP BY species;
