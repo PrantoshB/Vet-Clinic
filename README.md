@@ -1,4 +1,4 @@
-<h1 align="center">Vet Clinic 🐶</h1>
+# Vet Clinic 🐶
 
 ## Getting Started
 
@@ -21,6 +21,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 
 <!-- PROJECT DESCRIPTION -->
@@ -43,13 +44,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -63,7 +62,7 @@ Clone this repository to your desired folder:
   cd vet-clinic
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- AUTHORS -->
 
@@ -77,7 +76,7 @@ Clone this repository to your desired folder:
 - Twitter: [@prantalks](https://twitter.com/prantalks)
 - LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- FUTURE FEATURES -->
 
@@ -86,7 +85,7 @@ Clone this repository to your desired folder:
 
 - [ ] **This is an educational project. So there is no scope for improvement into the curriculum.**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- CONTRIBUTING -->
 
@@ -96,15 +95,19 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+Give a ⭐️ if you like this project!
 
-If you like this project...
+<div align="right">(<a href="#readme-top">back to top</a>)</div>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
