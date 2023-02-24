@@ -21,6 +21,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [📝 License](#license)
 
 
 <!-- PROJECT DESCRIPTION -->
@@ -100,10 +101,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <div align="right">(<a href="#readme-top">back to top</a>)</div>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
