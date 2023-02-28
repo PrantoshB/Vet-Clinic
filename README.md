@@ -76,6 +76,13 @@ Clone this repository to your desired folder:
 - Twitter: [@prantalks](https://twitter.com/prantalks)
 - LinkedIn: [Prantosh Biswas](https://linkedin.com/in/prantosh)
 
+
+👤 **Tanveer Ahmad **
+
+- GitHub: [@tanveerisonline ](https://github.com/tanveerisonline)
+- Twitter: [@Tanveer Ahmad](https://twitter.com/Tanveer98589023)
+- LinkedIn: [Tanveer Ahmad](https://www.linkedin.com/in/tanveerisonline)
+
 <div align="right">(<a href="#readme-top">back to top</a>)</div>
 
 <!-- FUTURE FEATURES -->
