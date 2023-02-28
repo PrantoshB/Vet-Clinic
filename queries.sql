@@ -145,3 +145,16 @@ WHERE v.vet_id IN (SELECT id FROM vets WHERE name ILIKE '%maisy smith%')
 GROUP BY s.id
 ORDER BY COUNT(*) DESC
 LIMIT 1;
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+
+explain analyze SELECT count(*) FROM visits WHERE animal_id = 4;
+
+explain analyze SELECT * FROM visits WHERE vet_id = 2;
+CREATE INDEX visits_vet_id_idx ON visits(vet_id);
+explain analyze SELECT * FROM visits WHERE vet_id = 2;
+explain analyze SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
+
+CREATE INDEX owners_email_idx ON owners(email);
+
+explain analyze SELECT * FROM owners WHERE email = 'owner_18327@mail.com';
