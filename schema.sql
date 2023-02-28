@@ -36,9 +36,12 @@ create table specializations (
     primary key(vet_id, species_id)
 );
 
-create table visits (
-    animal_id integer references animals(id),
-    vet_id integer references vets(id),
-    date_of_visit date,
-    primary key(animal_id, vet_id, date_of_visit)
+CREATE TABLE visits(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  animal_id INT REFERENCES animals(id),
+  vet_id INT REFERENCES vets(id),
+  date_of_visit DATE,
+  PRIMARY KEY(id)
 );
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
