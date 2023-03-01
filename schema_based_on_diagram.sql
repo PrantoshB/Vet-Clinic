@@ -46,6 +46,3 @@ alter table medical_histories
 
 alter table treatments
     add index (id);
-
-
-******* commit message: add foreign key indexes
