@@ -34,4 +34,18 @@ create table invoices (
     medical_history_id int not null references medical_histories(id),
 )
 
+alter table invoice_items
+    add index (invoice_id),
+    add index (treatment_id);
 
+alter table invoices
+    add index (medical_history_id);
+
+alter table medical_histories
+    add index (patient_id);
+
+alter table treatments
+    add index (id);
+
+
+******* commit message: add foreign key indexes
