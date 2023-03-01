@@ -34,6 +34,14 @@ create table invoices (
     medical_history_id int not null references medical_histories(id),
 )
 
+create table medical_histories_treatments(
+    medical_history_id int not null references medical_histories(id),
+    treatment_id int not null references treatments(id),
+    primary key (medical_history_id, treatment_id)
+)
+
+
+
 alter table invoice_items
     add index (invoice_id),
     add index (treatment_id);
@@ -46,3 +54,7 @@ alter table medical_histories
 
 alter table treatments
     add index (id);
+
+alter table medical_histories_treatments
+    add index (medical_history_id),
+    add index (treatment_id);
